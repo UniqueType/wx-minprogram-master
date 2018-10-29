@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/item/item",
+    "pages/lead/lead",
+    "pages/search/search",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#343",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home (2).png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search (1).png"
+      },
+      {
+        "pagePath": "pages/item/item",
+        "text": "项目",
+        "iconPath": "images/item.png",
+        "selectedIconPath": "images/item (1).png"
+      }
+    ]
+  }
+}

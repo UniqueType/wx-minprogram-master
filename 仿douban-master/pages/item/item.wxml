@@ -1,0 +1,35 @@
+
+<!--pages/item/item.wxml-->
+<view class="container">
+<view>模拟单选radio效果</view>
+  <view class="list" wx:for="{{list}}" wx:for-index="num">
+    <view class="list-item">
+      <view class="list-item-title" data-index="{{num}}" bindtap="isDisplay">{{item.title}}</view>
+      <view class="list-item-content" style="display:{{list[num].display}}" wx:for='{{list[num].content}}'>
+        <view>{{item}}</view>
+      </view>
+    </view>
+  </view>
+
+<view class="list0">模拟单选radio改进版
+  <view class="list" wx:for="{{list0}}" wx:for-index="num">
+    <view class="list-item">
+      <view class="list-item-title" data-index="{{num}}" bindtap="isDisplay0">{{item.title}}</view>
+      <view class="list-item-content" style="display:{{list0[num].display}}" wx:for='{{list0[num].content}}'>
+        <view>{{item}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+  <view class="list1">模拟toggle/checkbox效果
+    <view class="list" wx:for="{{list1}}" wx:for-index="num">
+      <view class="list-item">
+        <view class="list-item-title" data-index="{{num}}" bindtap="isDisplay1">{{item.title}}</view>
+        <view class="list-item-content" style="display:{{list1[num].display}}" wx:for='{{list1[num].content}}'>
+          <view>{{item}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

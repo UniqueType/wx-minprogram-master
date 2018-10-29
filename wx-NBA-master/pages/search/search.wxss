@@ -1,0 +1,6 @@
+button{
+    margin:0 20px;
+}
+.schedule{
+    margin:400rpx 20px 20rpx 20px;
+}

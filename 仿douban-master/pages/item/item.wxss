@@ -1,0 +1,7 @@
+/* pages/item/item.wxss */
+.list{display: flex;width: 100%;height: 100%;flex-direction: column;background-color: white;}
+.list1{display: flex;width: 100%;height: 100%;flex-direction: column;background-color: white;margin-top: 100rpx;}
+.list0{display: flex;width: 100%;height: 100%;flex-direction: column;background-color: white;margin-top: 100rpx;}
+.list-item{width: 100%;margin: 5rpx 0;text-indent: 30rpx;background-color: orangered;}
+.list-item-title{line-height: 80rpx;margin-bottom: 5rpx;}
+.list-item-content{line-height: 60rpx;text-indent: 60rpx;background-color: orange;margin-bottom: 5rpx;}

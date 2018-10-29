@@ -1,0 +1,7 @@
+<!--pages/details/details.wxml-->
+<view><text>{{index}}</text></view>
+<view><text>{{title}}</text></view>
+
+
+<view class="btnClick" bindtap="btnClick">btnClick</view>
+<view>{{content}}</view>

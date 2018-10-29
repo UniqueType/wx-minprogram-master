@@ -1,0 +1,12 @@
+.contain{
+    text-align: center;
+    margin-top:40%;
+}
+.userimg{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.username{
+    margin-top:100rpx;
+}

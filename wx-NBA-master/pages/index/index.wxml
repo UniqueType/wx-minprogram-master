@@ -1,0 +1,17 @@
+<import src="../common/common"/>
+
+<scroll-view scroll-y="true" class="contain">
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true">
+    <block wx:for="{{swiperImgData}}" wx:key="{{ item.key }}">
+      <swiper-item>
+        <image src="{{item}}"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <template is="match-template" data="{{allData:allData}}" />
+
+</scroll-view>
+<loading hidden="{{loading}}">玩命加载中...</loading>
+
+

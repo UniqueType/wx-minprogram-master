@@ -1,0 +1,47 @@
+<!--<view class="adress">
+    你选择的地址是：{{provinceNameArray[provinceId]}}省{{cityNameArray[cityId]}}市{{areaNameArray[areaId]}}县/区
+</view>-->
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="info">
+        <view class="section__title">收货人：</view>
+        <input name="reciver" bindblur="valicationRequired" />
+    </view>
+    <view class="info">
+        <view class="section__title">手机号：</view>
+        <input name="cellPhone" bindblur="valicationPhone"/>
+    </view>
+    <view  class="info">
+    <view>省 份</view>
+    <picker bindchange="bindPickerChange" name="provinceIndex" value="{{provinceId}}" range="{{provinceNameArray}}">
+    <view class="picker">
+            {{provinceNameArray[provinceId]}}
+        </view>
+    </picker>
+    </view> 
+    <view class="info">
+        <view>城 市</view>
+        <picker bindchange="bindPickerCity" name="cityIndex" value="{{cityId}}" range="{{cityNameArray}}">
+            <view class="picker">
+                {{cityNameArray[cityId]}}
+            </view>
+        </picker>
+    </view>
+    <view class="info">
+        <view>县/区</view>
+        <picker bindchange="bindPickerArea" name="areaIndex" value="{{areaId}}" range="{{areaNameArray}}">
+            <view class="picker">
+                {{areaNameArray[areaId]}}
+            </view>
+        </picker>
+    </view>
+
+    <view class="info">
+        <view class="section__title">详细地址：</view>
+        <input name="detailAddress" placeholder="街道、楼牌号等" bindblurblur="valicationRequired"/>
+    </view>
+   <view class="btn-area">
+    <button formType="submit">提交</button>
+    <button formType="reset">重置</button>
+   </view>
+</form>

@@ -1,0 +1,25 @@
+
+<!--pages/list/list.wxml-->
+<view class="container">
+  <view class="header">{{title}}</view>
+  <scroll-view class="list"  scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" bindscrolltolower="scrolltolower" bindscroll="scroll" bindscrolltoupper="scrolltoupper">
+    <navigator url="../details/details?index={{index}}&list={{item.title}}" wx:for="{{list}}" wx:if="{{ index < num}}">
+      <view class="list-item">
+        <view class="image">
+          <image src="{{ item.img }}" mode="scaleToFill" />
+        </view>
+        <view class="info">
+          <view>
+            <text class="title">《{{item.title}}》</text>
+            <text>导演：{{item.directors}} </text>
+          </view>
+          <view>
+            <text>时间：{{item.cTime}} </text>
+          </view>
+        </view>
+        <text class="grade">{{item.grade}}</text>
+      </view>
+    </navigator>
+  </scroll-view>
+  <loading hidden="{{!loading}}">loading...</loading>
+</view>

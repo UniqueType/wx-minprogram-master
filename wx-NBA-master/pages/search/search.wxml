@@ -1,0 +1,8 @@
+<view class="contain">
+    <navigator url="../searchSchedule/searchSchedule">
+        <button size="default" type="primary" class="schedule">赛程赛事查询</button>
+    </navigator>
+    <navigator url="../searchResult/searchResult">
+        <button size="default" type="primary">对战赛事查询</button>
+    </navigator>   
+</view>

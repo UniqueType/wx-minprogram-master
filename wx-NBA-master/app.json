@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/lead/lead",
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/search/search",
+    "pages/searchSchedule/searchSchedule",
+    "pages/searchResult/searchResult"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark"
+  }, 
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#f08200",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"img/index.png",
+      "selectedIconPath":"img/index2.png"
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath":"img/search.png",
+      "selectedIconPath":"img/search2.png"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath":"img/my.png",
+      "selectedIconPath":"img/my2.png"
+    }]
+  }
+}

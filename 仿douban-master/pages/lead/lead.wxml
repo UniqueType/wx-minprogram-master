@@ -1,0 +1,13 @@
+<!--pages/lead/lead.wxml-->
+
+    <swiper indicator-dots="true">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" />
+            <!--按钮的出现  以下两种方法均可-->
+            <!--<button bindtap="goIndex" hidden="{{index!==imgUrls.length-1}}">进入豆瓣电影</button>-->
+            <button  wx:if="{{index==imgUrls.length-1}}" bindtap="goIndex">进入豆瓣电影</button>
+            </swiper-item>
+        </block>
+    </swiper>
+

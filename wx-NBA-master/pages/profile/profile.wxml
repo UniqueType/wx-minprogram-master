@@ -1,0 +1,5 @@
+<view class="contain">
+    <image mode="aspectFill" src="{{userData[0]}}" class="userimg"/>
+    <view class="username">{{userData[1]}}</view>
+</view>
+<loading hidden="{{pageloading}}"></loading>

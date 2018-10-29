@@ -1,0 +1,10 @@
+/* pages/list/list.wxss */
+.container{width: 100%;}
+.header{text-align: center;background-color: #eee;color: black;padding-top: 20rpx;padding-bottom: 20rpx;}
+navigator{display: flex;}
+.list-item{width: 100%;flex: 1;font-size: 30rpx;padding: 10rpx 40rpx;border: 1rpx solid #eee;position: relative;cursor: pointer;}
+.list-item image{ width:80rpx;height: 80rpx;}
+.list-item .image,.list-item .info{float: left;}
+.list-item .image{margin-right: 60rpx;}
+.list-item text{line-height:45rpx;}
+.grade{position: absolute;right: 20rpx;top:10rpx;background-color: orangered;padding: 0 10rpx;color: white;border-radius: 10rpx;}

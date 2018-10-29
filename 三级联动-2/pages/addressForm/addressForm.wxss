@@ -1,0 +1,3 @@
+.info {margin: 40rpx;}
+.info picker {border: 2rpx silver solid;font-size: 30rpx;padding: 10rpx 20rpx;margin-top: 10rpx;}
+.adress {font-size: 30rpx;text-align: center}

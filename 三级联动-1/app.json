@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fc8e5d",
+    "navigationBarTitleText": "HotCity 城市选择器",
+    "navigationBarTextStyle":"#fff"
+  }
+}

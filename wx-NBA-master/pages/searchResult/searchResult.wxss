@@ -1,0 +1,47 @@
+@import "../common/common.wxss";
+.contian{
+    background-color: #f1f1f1;
+}
+.contian .search_bg{
+    background-color: white;
+}
+.contian .search_box{
+    display: flex;
+    justify-content: center; 
+}
+.contian .search_box{
+    margin-top:50rpx;
+    margin-bottom:50rpx;
+}
+.contian .search_box view{
+    padding:0 10px;
+}
+.contian .search_box view>input{
+    height:28px;
+    border:4rpx solid #ccc;
+    border-radius: 3px;
+    font-size: 30rpx;
+    padding-left:6px;
+}
+.contian .search_box view.vs{
+    color:red;
+    line-height:76rpx;
+}
+.contian .search_btn{
+    padding:0 10px;
+    height:80rpx;
+}
+.contian .search_btn button{
+    height:100%;
+    width:100%;
+    font-size:32rpx;
+
+}
+#error_data{
+    font-size:24rpx;
+    color:red;
+    margin:0 auto;
+    background-color:#fff;
+    padding-top:300rpx;
+    text-align:center;
+}

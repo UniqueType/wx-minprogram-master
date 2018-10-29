@@ -1,0 +1,78 @@
+/*indexe*/
+.day_item{
+	padding:20rpx 0;
+	width:100%;
+	background-color:#ebebeb;
+	margin-bottom:20rpx;
+}
+.day_item .scroll_item{
+	width:710rpx;
+	margin-left:20rpx;
+}
+.day_item .day_title{
+	margin-left:20rpx;
+	font-size:26rpx;
+}
+.day_item .scroll_box{
+	display: flex;
+	flex-direction: row;
+}
+.day_item .scroll_box .match_item{
+	display:flex;
+	flex-direction:row;
+	border:2rpx solid #ccc;
+	margin-right:20rpx;
+	padding:8rpx;
+	background-color:white;
+}
+.day_item .scroll_box .match_item .vs{
+	line-height:110rpx;
+	margin:0 10rpx;
+	font-size:28rpx;
+	width:112rpx;
+	text-align:center;
+}
+.day_item .scroll_box .match_item .team_item{
+	width:100rpx;
+	text-align:center;
+}
+.day_item .scroll_box .match_item .team_item>text{
+	font-size: 24rpx;
+}
+.day_item .scroll_box .match_item .team_item image{
+	width:100rpx;
+	height:100rpx;
+    display:block;
+}
+/*searched*/
+.search_result>.match{
+margin-bottom:26rpx;
+background-color:#fff;
+padding:10px;
+margin:0 10px 10px 10px;
+
+}
+.search_result .match_time{
+    font-size: 28rpx;
+}
+.search_result .match_item{
+    display: flex;
+    padding-left:92rpx;
+    background-color: #fff;
+}
+.search_result .match_item>.team_item{
+    width:150rpx;
+    text-align:center;
+    font-size:26rpx;
+
+}
+.search_result .match_item>.team_item image{
+    width:150rpx;
+    height:150rpx;
+}
+.search_result .match_item>.vs{
+    width:114rpx;
+    font-size:29rpx;
+    text-align:center;
+    line-height:174rpx;
+}

@@ -1,0 +1,4 @@
+/**app.wxss**/
+.contian {
+	font-family: "Microsoft YaHei";
+} 

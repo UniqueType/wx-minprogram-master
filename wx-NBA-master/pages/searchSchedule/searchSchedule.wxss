@@ -1,0 +1,34 @@
+@import "../common/common.wxss";
+.contian{
+    background-color: #f1f1f1;
+}
+.search_bg{
+    background-color: #fff;
+    padding:10px 0;
+    margin-bottom:10px;
+}
+.search_box{
+    border:2px solid #ccc;
+    width:80%;
+    height:36px;
+    margin:0 auto;
+    border-radius: 2px;
+    position:relative;
+}
+.search_box>.search_input{
+    margin-left:10px;
+    height:100%;
+    border-radius: 2px;
+}
+.search_box>.search_btn{
+    position:absolute;
+    top:5px;
+    right:5px;
+    z-index:2;
+}
+#error_data{
+    font-size:24rpx;
+    color:red;
+    margin:200rpx auto;
+    width:340rpx;
+}

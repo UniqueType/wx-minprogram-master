@@ -1,0 +1,44 @@
+<!--indexTemplate-->
+<template name="match-template">
+    <block wx:for="{{allData}}" wx:key="{{ item.key }}">
+        <view class="day_item">
+          <view class="day_title">{{item.title}}</view>
+          <scroll-view scroll-x="true" class="scroll_item">
+            <view class="scroll_box">
+              <block wx:for="{{item.tr}}" wx:key="{{ item.key }}">
+                <view class="match_item">
+                  <view class="team_item">
+                    <image src="{{item.player1logo}}"></image>
+                    <text>{{item.player1}}</text>
+                  </view>           
+                  <view class="vs">{{item.score}}</view>
+                  <view class="team_item">
+                    <image src="{{item.player2logo}}"></image>
+                    <text>{{item.player2}}</text>
+                  </view>
+                </view>       
+              </block>
+            </view>
+          </scroll-view>
+        </view>      
+    </block>
+</template>
+<!--searchSchedule&searchResult-->
+<template name="search-template">
+  <view class="search_result">
+      <view wx:for="{{allData}}" wx:key="{{ item.key }}" class="match">
+            <view class="match_time">2017/{{item.time}}</view>
+            <view class="match_item">
+                <view class="team_item">
+                    <image src="{{item.player1logo}}"></image>
+                    <text>{{item.player1}}</text>
+                </view>           
+                <view class="vs">{{item.score}}</view>
+                <view class="team_item">
+                    <image src="{{item.player2logo}}"></image>
+                    <text>{{item.player2}}</text>
+                </view>
+            </view> 
+      </view>
+  </view>
+</template>

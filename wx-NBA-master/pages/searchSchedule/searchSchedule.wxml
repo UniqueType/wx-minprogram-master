@@ -1,0 +1,17 @@
+<import src="../common/common.wxml"/>
+<view class="contian">
+<scroll-view scroll-y="true">
+    <view class="search_bg">     
+        <view class="search_box">
+            <input type="text" placeholder="输入需要查询球队名称" maxlength="8" auto-focus class="search_input" bindinput="textValue"/>
+            <view class="search_btn" bindtap="searchBtn" ><icon type="search" size="28" color="{{iconColor}}"/></view>
+        </view>
+    </view>
+    <template is="search-template" data="{{allData:allData}}"/>
+</scroll-view>
+</view>
+<view wx:if="{{errorData}}" id="error_data">{{errorData}}!!!</view>
+<loading hidden="{{loading}}">请求加载中...</loading>
+<loading hidden="{{pageloading}}">玩命加载中...</loading>
+
+

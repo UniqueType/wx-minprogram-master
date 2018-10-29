@@ -1,0 +1,15 @@
+<import src="../common/common.wxml"/>
+<view class="contian">
+    <view class="search_bg">
+        <view class="search_box">
+            <view><input type="text" placeholder="输入球队名称" bindinput="oneInput"/></view>
+            <view class="vs">VS</view>
+            <view><input type="text" placeholder="输入球队名称" bindinput="twoInput"/></view>
+        </view>
+        <view class="search_btn">
+            <button type="primary" catchtap="searchBtn">确定</button>
+        </view>
+    </view>
+        <template is="search-template" data="{{allData:allData}}" />
+    <view wx:if="{{errorData}}" id="error_data">{{errorData}}!!!</view>
+</view>

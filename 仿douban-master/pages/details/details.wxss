@@ -1,0 +1,2 @@
+/* pages/details/details.wxss */
+.btnClick{width: 200rpx; border: 1rpx solid #eee;background-color: greenyellow;padding: 20rpx 30rpx;text-align: center}

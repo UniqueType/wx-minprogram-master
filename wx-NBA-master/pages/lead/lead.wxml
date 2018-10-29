@@ -1,0 +1,10 @@
+<!--pages/lead/lead.wxml-->
+<swiper>
+  <block wx:for="{{imgData}}" wx:key="{{ item.key }}">
+    <swiper-item>
+      <image src="{{item}}"/>
+      <button id="lead_btn" wx:if="{{index==imgData.length-1}}" bindtap="goIndex">进入NBA的世界</button>   
+    </swiper-item>
+  </block>
+</swiper>
+<loading hidden="{{loading}}">玩命加载中...</loading>

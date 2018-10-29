@@ -1,0 +1,63 @@
+/**index.wxss**/
+.contain{
+	font-family: "Microsoft YaHei";
+}
+swiper{
+  width:100%;
+  height:460rpx;
+	margin-bottom:20rpx;
+}
+swiper swiper-item,image{
+  width:100%;
+  height:100%;
+}
+swiper image{
+  height:100%;
+}
+.day_item{
+	padding:20rpx 0;
+	width:100%;
+	background-color:#ebebeb;
+	margin-bottom:20rpx;
+}
+.day_item .scroll_item{
+	width:710rpx;
+	margin-left:20rpx;
+}
+.day_item .day_title{
+	margin-left:20rpx;
+	font-size:26rpx;
+}
+.day_item .scroll_box{
+	display: flex;
+	flex-direction: row;
+}
+.day_item .scroll_box .match_item{
+	display:flex;
+	flex-direction:row;
+	border:2rpx solid #ccc;
+	margin-right:20rpx;
+	padding:8rpx;
+	background-color:white;
+}
+.day_item .scroll_box .match_item .vs{
+	line-height:110rpx;
+	margin:0 10rpx;
+	font-size:28rpx;
+	width:112rpx;
+	text-align:center;
+}
+.day_item .scroll_box .match_item .team_item{
+	width:100rpx;
+	text-align:center;
+}
+.day_item .scroll_box .match_item .team_item>text{
+	font-size: 24rpx;
+}
+.day_item .scroll_box .match_item .team_item image{
+	width:100rpx;
+	height:100rpx;
+    display:block;
+}
+
+
